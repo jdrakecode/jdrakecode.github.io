@@ -1,0 +1,45 @@
+body {
+    background-image: url("./assets/star_background2.jpg");
+    /* height: 5472px; */
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hdrImg {
+    background-color: #00d9ff7c;
+    background-image: url("./assets/cubes.png");
+}
+
+.hdrTxt {
+    text-align: center;
+    color: white;
+    padding: 5%;
+}
+
+.my_shadow {
+    box-shadow: 25px 25px 15px black
+}
+
+/* #AbtHdr {
+    color: white;
+} */
+
+#Abt {
+    margin: 5%
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+    box-shadow: 25px 25px 15px black;
+}
+
+.sendButton {
+    color: white;
+}
