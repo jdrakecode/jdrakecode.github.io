@@ -4,33 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Jeffery Drake</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Top Row -->
     <div class="hdrImg">
         <div class="hdrTxt">
-            <h1>Jeffery Drake</h1>
-            <h3>Junior Developer</h3>
+            <h1 id="name">Jeffery Drake</h1>
+            <h4>Junior Developer</h4>
         </div>
     </div>
     <div class="container" id="Abt">
-        <!-- <h1 id="AbtHdr">About Me:</h1> -->
         <div class="row">
+            <div class="col-6 sidebar">
+                <img src="./assets/hair_tied.jpg" alt="">
+            </div>
             <div class="col-6">
                 <div class="jumbotron my_shadow">
                     <h1>About Me:</h1>
-                    <p class="lead aboutMe mt-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non metus tellus. Praesent id nulla quis tortor egestas iaculis. In lobortis ultrices sapien, in euismod ligula porttitor et. Sed semper ut ante a convallis. Nullam quam ante, fringilla quis augue id, pretium vulputate quam. Aliquam ut ipsum ut augue posuere scelerisque vel sit amet nisl. Nullam rutrum mauris enim, eu varius erat elementum vel. Donec posuere eget libero sit amet lacinia. Nam erat ligula, dignissim et porttitor nec, sodales sed tortor. Morbi iaculis hendrerit elit sed fringilla.
-                    </p>
+                    <p>Gentlemen, it has often been said that I like code.</p>
+                    <p>I like code...</p>
+                    <p>No, gentlemen, I love Python!</p>
+                    <p>I love strings.</p>
+                    <p>I love lists.</p>
+                    <p>I love tuples.</p>
+                    <p>I love loops, functions, dictionaries, and everything in between</p>
+                    <p>Coding in the morning, at noon, in the evening, in the middle of the night. Code for breakfast, lunch, and dinner.</p>
+                    <p>Gentlemen, I love to code!</p>
                 </div>
-            </div>
-            <div class="col-6 sidebar">
-                <img src="./assets/hair_down.jpg" alt="">
             </div>
         </div>
     </div>
+    <!-- Second Row -->
+    <div class="hdrImg">
+        <div class="hdrTxt">
+            <h1>My Proficiencies</h1>
+            <!-- Icons Go Here -->
+            <a target="blank" class="navbar-brand nav-link nav_text icons" href="https://www.python.org/">
+                <i class="fab fa-python fa-5x" title="Python 3"></i>
+            </a>
+        </div>
+    </div>
+    <!-- Third Row -->
+    <div class="projects">
+        <h1 class="proHdr">Projects</h1>
+        <ul class="list">
+            <li class="item">
+                <a href="https://codepen.io/jdrakecode/pen/YbrZBd" target="blank">
+                    <div class="imgbox" id="project1">
+
+                    </div>
+                </a>
+                <div class="description">
+                    <h4>CSS Creature</h4>
+                    <p>A hideous monstrosity created while learning to use HTML and CSS. Definitely intentional.</p>
+                </div>
+            </li>
+            <li class="item">
+                    <a href="https://github.com/jdrakecode/python_business_challenges" target="blank">
+                        <div class="imgbox" id="project2">
+    
+                        </div>
+                    </a>
+                    <div class="description">
+                        <h4>Python Business Challenges</h4>
+                        <p>A series of challenges.</p>
+                    </div>
+                </li>
+        </ul>
+    </div>
+    <!-- Bottom Row -->
     <div>
         <div class="my_shadow" style="margin: 100px;">
             <div class="card text-center">
@@ -51,14 +99,13 @@
                     <h5 class="card-title"></h5>
                     <div class="myForm">
                         <h1 class="mt-3">Contact Me</h1>
-                        <!-- Contact Form / Needs a submission method to be functional -->
                         <form action="https://formspree.io/jdrakepaypal@gmail.com" method="post">
                             <div class="form-row mt-4">
                                 <div class="col">
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" name="email" placeholder="Your Email">
+                                    <input type="text" class="form-control" name="email" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-group mt-3">

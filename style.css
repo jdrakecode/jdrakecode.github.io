@@ -1,12 +1,12 @@
 body {
     background-image: url("./assets/star_background2.jpg");
-    /* height: 5472px; */
     height: 100%;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: black;
 }
 
 .hdrImg {
@@ -15,9 +15,14 @@ body {
 }
 
 .hdrTxt {
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
-    color: white;
     padding: 5%;
+}
+
+#name {
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
 }
 
 .my_shadow {
@@ -33,13 +38,79 @@ body {
 }
 
 .sidebar img {
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
-    margin-top: 15%;
-    margin-left: 20%;
+    margin-top: 10%;
+    /* margin-left: 20%; */
     box-shadow: 25px 25px 15px black;
 }
 
 .sendButton {
     color: white;
+}
+
+.icons {
+    color: rgb(70, 68, 68);
+    text-decoration: none;
+}
+
+.icons:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.projects {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+.proHdr {
+    background-image: url("./assets/cubes.png");
+    background-color: #ff3c007c;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    width: 100%;
+}
+
+.list {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.item {
+    text-align: center;
+    display: flex;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.imgbox {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 80px 0 0 80px; */
+}
+
+#project1 {
+    background: url("./assets/css_creature.png");
+    /* background-size: 200px 200px; */
+    background-size: cover;
+}
+
+#project2 {
+    background: url("./assets/pbc.png");
+    /* background-size: 200px 200px; */
+    background-size: cover;
+}
+
+.description {
+    background-image: url("./assets/cubes.png");
+    background-color: #00d9ff7c;
+    width: 770px;
 }
