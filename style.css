@@ -138,3 +138,8 @@ a:hover {
 .nav-tabs .nav-link:hover {
     border-color: #000000 #000000 #00000000;
 }
+
+.btn {
+    border-color: #575757;
+    background-color: #222222;
+}
