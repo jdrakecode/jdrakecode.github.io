@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: #333333;
+    color: #272727;
 }
 
 a:hover {
@@ -25,21 +25,17 @@ a:hover {
 .hdrTxt {
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 #name {
     font-family: 'Courgette', cursive;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .my_shadow {
-    box-shadow: 25px 25px 15px black
+    box-shadow: 25px 25px 15px black;
 }
-
-/* #AbtHdr {
-    color: white;
-} */
 
 #Abt {
     margin: 5%
@@ -53,8 +49,10 @@ a:hover {
     box-shadow: 25px 25px 15px black;
 }
 
-.sendButton {
-    color: white;
+.jumbotron {
+    background-image: url("./assets/cubes.png");
+    background-color: #00d9ffc0;
+    box-shadow: 0px 0px 25px #00d9ff;
 }
 
 .icons {
@@ -78,10 +76,11 @@ a:hover {
 
 .proHdr {
     background-image: url("./assets/cubes.png");
-    background-color: #ff3c007c;
+    background-color: #ff3c00c0;
     margin-top: 100px;
-    margin-bottom: 0%;
+    margin-bottom: 20px;
     width: 100%;
+    box-shadow: 0px 0px 25px #ff3c00;
 }
 
 .list {
@@ -95,6 +94,8 @@ a:hover {
     display: flex;
     min-height: 200px;
     min-width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 25px #00d9ff;
 }
 
 .imgbox {
@@ -117,7 +118,7 @@ a:hover {
 
 .description {
     background-image: url("./assets/cubes.png");
-    background-color: #00d9ff7c;
+    background-color: #00d9ffc0;
     width: 100%;
 }
 
