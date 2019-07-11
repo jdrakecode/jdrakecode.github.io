@@ -9,6 +9,14 @@ body {
     color: black;
 }
 
+a {
+    color: #333333;
+}
+
+a:hover {
+    color: #000000;
+}
+
 .hdrImg {
     background-color: #00d9ff7c;
     background-image: url("./assets/cubes.png");
@@ -63,8 +71,6 @@ body {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1000px;
@@ -112,5 +118,23 @@ body {
 .description {
     background-image: url("./assets/cubes.png");
     background-color: #00d9ff7c;
-    width: 770px;
+    width: 100%;
+}
+
+.card {
+    background-image: url("./assets/cubes.png");
+    background-color: #00d9ff7c;
+}
+
+.card-header {
+    background-color: #00d9ffa6;
+}
+
+.nav-tabs .nav-link {
+    background-color: #00000044;
+    margin: 0px 1px 1px;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #000000 #000000 #00000000;
 }
