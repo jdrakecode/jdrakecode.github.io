@@ -56,7 +56,7 @@ a:hover {
 }
 
 .icons {
-    color: rgb(70, 68, 68);
+    color: rgb(70, 70, 70);
     text-decoration: none;
 }
 
@@ -125,6 +125,8 @@ a:hover {
 .card {
     background-image: url("./assets/cubes.png");
     background-color: #00d9ff7c;
+    border-color: #888888;
+    border-width: 1px;
 }
 
 .card-header {
