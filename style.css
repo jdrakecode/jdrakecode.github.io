@@ -116,6 +116,12 @@ a:hover {
     background-size: cover;
 }
 
+#project3 {
+    background: url("./assets/spacelaunch.jpg");
+    /* background-size: 200px 200px; */
+    background-size: cover;
+}
+
 .description {
     background-image: url("./assets/cubes.png");
     background-color: #00d9ffc0;
