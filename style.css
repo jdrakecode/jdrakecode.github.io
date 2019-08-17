@@ -106,19 +106,26 @@ a:hover {
 
 #project1 {
     background: url("./assets/css_creature.png");
-    /* background-size: 200px 200px; */
     background-size: cover;
 }
 
 #project2 {
     background: url("./assets/pbc.png");
-    /* background-size: 200px 200px; */
     background-size: cover;
 }
 
 #project3 {
     background: url("./assets/spacelaunch.jpg");
-    /* background-size: 200px 200px; */
+    background-size: cover;
+}
+
+#project4 {
+    background: url("./assets/zenofpython.jpg");
+    background-size: cover;
+}
+
+#project5 {
+    background: url("./assets/yourwill.jpg");
     background-size: cover;
 }
 
